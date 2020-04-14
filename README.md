@@ -30,13 +30,14 @@ Note: On windows it is recommended to use Laragon version 4.0.16 for the develop
 
 ### Configuration
 To run this project it is necessary to execute these commands in sequence on the terminal:
+```
+composer install
+npm install && npm run dev
+php artisan migrate
+php artisan db:seed
+```
 
-`composer install`
-`npm install && npm run dev`
-`php artisan migrate`
-`php artisan db:seed`
-
-Note: For login verify dates in database/seeds/UsersTableSeeder.php
+Note: For login verify user data in database/seeds/UsersTableSeeder.php
 
 ### License
 
