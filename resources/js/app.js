@@ -15,6 +15,7 @@ window.Vue.use(VueRouter);
 import ProductsIndex from './components/Products/ProductsIndex.vue';
 import ProductsCreate from './components/Products/ProductsCreate.vue';
 import ProductsEdit from './components/Products/ProductsEdit.vue';
+import ProductsWelcome from './components/ProductsWelcome.vue';
 
 
 /**
@@ -27,7 +28,7 @@ import ProductsEdit from './components/Products/ProductsEdit.vue';
 
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('welcome-component', require('./components/Products/ProductsEdit.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -38,11 +39,12 @@ const routes = [
     {
         path: '/',
         components: {
-            ProductsIndex: ProductsIndex
+            productsIndex: ProductsIndex,
+            productsWelcome: ProductsWelcome
         }
     },
-    {path: '/admin/products/create', component: ProductsCreate, name: 'createProduct'},
-    {path: '/admin/products/edit/:id', component: ProductsEdit, name: 'editProduct'},
+    {path: '/products/create', component: ProductsCreate, name: 'createProduct'},
+    {path: '/products/edit/:id', component: ProductsEdit, name: 'editProduct'},
 ]
 
 const router = new VueRouter({ routes });

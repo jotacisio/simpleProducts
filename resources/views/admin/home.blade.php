@@ -14,8 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
                     <router-view name="productsIndex"></router-view>
+                    <router-view></router-view>
                 </div>
             </div>
         </div>
