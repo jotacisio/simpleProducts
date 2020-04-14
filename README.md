@@ -11,7 +11,7 @@
 ## About This Project
 This project is a simple product CRUD application developed with Laravel 6 and Vue.js in a single project that is not uncoupled, thus without using REST API. It was developed for a technical knowledge test and is entirely in English.
 
-##System requirements
+## System requirements
 
 - PHP >= 7.2.5
 - BCMath PHP Extension
@@ -27,7 +27,7 @@ This project is a simple product CRUD application developed with Laravel 6 and V
 Note: On windows it is recommended to use Laragon version 4.0.16 for the development environment
 
 
-##Configuration
+## Configuration
 To run this project it is necessary to execute these commands in sequence on the terminal:
 
 `composer install`
