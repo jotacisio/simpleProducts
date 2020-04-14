@@ -6,12 +6,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-<p align="center">Simple Project</p>
 
-## About This Project
+## Simple Products
+
+### About This Project
 This project is a simple product CRUD application developed with Laravel 6 and Vue.js in a single project that is not uncoupled, thus without using REST API. It was developed for a technical knowledge test and is entirely in English.
 
-## System requirements
+### System requirements
 
 - PHP >= 7.2.5
 - BCMath PHP Extension
@@ -27,7 +28,7 @@ This project is a simple product CRUD application developed with Laravel 6 and V
 Note: On windows it is recommended to use Laragon version 4.0.16 for the development environment
 
 
-## Configuration
+### Configuration
 To run this project it is necessary to execute these commands in sequence on the terminal:
 
 `composer install`
@@ -37,6 +38,6 @@ To run this project it is necessary to execute these commands in sequence on the
 
 Note: For login verify dates in database/seeds/UsersTableSeeder.php
 
-## License
+### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). This project also.
